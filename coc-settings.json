@@ -1,0 +1,21 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python"],
+
+  // python config
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+
+  // Check current position diagnostics
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.refreshOnInsertMode":true,
+
+  // Turn off annoying js error
+  "javascript.suggestionActions.enabled": false,
+
+  "snippets.ultisnips.directories":
+  [
+    "UltiSnips",
+    "~/.config/nvim/utils/snips"
+  ]
+
+}
