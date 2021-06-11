@@ -29,9 +29,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'folke/which-key.nvim'
     " Nvim web Devicons
     Plug 'kyazdani42/nvim-web-devicons'
-    " Airline
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
+    " Statusline
+    Plug 'glepnir/galaxyline.nvim'
     " Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
     " Rainbow brackets
