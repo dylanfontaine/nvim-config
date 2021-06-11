@@ -2,7 +2,7 @@
 let g:mapleader = "\<Space>"
 
 syntax enable                           " Enables syntax highlighing
-set hidden                              " Required to keep multiple buffers open multiple buffers
+set hidden                              " Required to keep multiple buffers
 set nowrap                              " Display long lines as just one line
 set encoding=utf-8                      " The encoding displayed
 set pumheight=10                        " Makes popup menu smaller
@@ -28,6 +28,9 @@ set cursorline                          " Enable highlighting of the current lin
 set background=dark                     " tell vim what the background color looks like
 set showtabline=2                       " Always show tabs
 set noshowmode                          " We don't need to see things like -- INSERT -- anymore
+set noswapfile                          " F*** swap files
+set undodir=~/.vim/undodir              " Use undofiles
+set undofile                            " Use undofiles
 set nobackup                            " This is recommended by coc
 set nowritebackup                       " This is recommended by coc
 set updatetime=300                      " Faster completion
@@ -36,6 +39,7 @@ set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 "set autochdir                          " Your working directory will always be the same as your current directory
 set termguicolors                       " Use gui colors, required by colorizer
+set colorcolumn=80                      " 80 column guide line
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 

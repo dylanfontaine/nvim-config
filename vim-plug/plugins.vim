@@ -14,8 +14,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
-    " gruvbox theme
+    " Theme
     Plug 'morhetz/gruvbox'
+    Plug 'phanviet/vim-monokai-pro'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Telescope (finder)
@@ -41,5 +42,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
     Plug 'shumphrey/fugitive-gitlab.vim'
+    " Splash Screen
+    Plug 'glepnir/dashboard-nvim'
 
 call plug#end()
