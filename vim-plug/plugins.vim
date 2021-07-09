@@ -17,14 +17,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Theme
     Plug 'morhetz/gruvbox'
     Plug 'phanviet/vim-monokai-pro'
-    " Intellisense
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Telescope (finder)
     Plug 'nvim-lua/popup.nvim'
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     " Neovim LSP
-    Plug 'neovim/nvim-lsp'
+    Plug 'neovim/nvim-lspconfig'
     " Neovim which keys
     Plug 'folke/which-key.nvim'
     " Nvim web Devicons
